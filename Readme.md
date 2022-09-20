@@ -1,41 +1,39 @@
-# HTML+Tailwind+Vite Starter
+# Mario Club Website
 
-## Summary
+## Description
 
-This starter template is for automating the process of building small or static website projects.
+Sample project to help getting started with HTML, Tailwind CSS and Vite.JS.
 
-Tailwind CSS is set up and configured with Vite.JS - a rapid development tool for modern web projects that focuses on speed and performance by improving the development experience.
+The project also puts into practice proper management of Git by organizing code into staging and production ready branches so that there is always a version of the code ready to go.
 
-## Getting Started
+Finally, the repetitive process of building and deploying the project to production is automated by using GitHub Actions for onward deployment to Firebase Hosting.
 
-1. Clone the repository
+## Technologies Used
+
+1. HTML
+2. Tailwind
+3. ViteJS
+4. GitHub Actions
+5. Firebase Hosting
+
+## Using The Repository
+
+Using the following steps, you can run the project on your local computer.
+
+1. Clone the repository to a folder on your local computer using this command
 
 ```
-git clone {{ git repository }} {{ working project folder }}
+git clone https://github.com/thes3interdev/mario-club-website.git .
 ```
 
-2. Open the project in Visual Studio Code
-
-3. Open a new terminal in Visual Studio Code and install the project dependencies
+2. Run Yarn to setup the project dependencies
 
 ```
 yarn
 ```
 
-4. Run the project using the Vite.JS server
+3. Run the project locally
 
 ```
 yarn dev
 ```
-
-5. Optimize for production
-
-```
-yarn build
-```
-
-## Technologies Used
-
-1. HTML
-2. Tailwind CSS
-3. Vite.JS
