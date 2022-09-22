@@ -3,14 +3,68 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Starter template for small or static websites." />
+		<meta
+			name="description"
+			content="The place to be for all Mario game lovers, both young and old."
+		/>
 		<link rel="icon" type="image/png" href="/assets/favicon.png" />
-		<title>HTML+Tailwind+Vite Starter</title>
+		<title>Mario Club</title>
 	</head>
 	<body>
-		<h1 class="p-8 text-center text-4xl font-bold text-indigo-700">
-			Your settings are well configured.
-		</h1>
+		<header>
+			<h1>Marioclub</h1>
+		</header>
+		<section class="banner">
+			<img src="img-lesson-07/banner.png" alt="Marioclub Banner" />
+			<div class="welcome">
+				<h2>Welcome to <br /><span>Marioclub</span></h2>
+			</div>
+		</section>
+		<nav class="main-nav">
+			<ul>
+				<li><a href="/join.html" class="joinclub">Join the club</a></li>
+				<li><a href="/news.html">Latest news</a></li>
+				<li><a href="/games.html">New games</a></li>
+				<li><a href="/contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<main>
+			<article>
+				<h2>Its a me,Mario</h2>
+				<p>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, nobis assumenda
+					ducimus soluta ex esse sequi voluptate aliquid debitis ad vel id. Optio ipsum
+					veniam dicta dolore recusandae nesciunt doloribus! Lorem ipsum dolor sit, amet
+					consectetur adipisicing elit. Ratione sapiente recusandae commodi quisquam
+					assumenda impedit dolore in quae! Eaque, fugit unde placeat libero ab dolorum!
+					Molestias dolorem minima reiciendis fuga. Lorem ipsum dolor sit amet consectetur
+					adipisicing elit. Repellendus ex minima neque laudantium delectus nesciunt,
+					soluta quibusdam similique vitae, inventore iusto asperiores fuga id natus.
+					Earum impedit velit rem aspernatur.
+				</p>
+			</article>
+			<ul class="images">
+				<li><img src="img-lesson-07/thumb-1.png" alt="Mario thumb 1" /></li>
+				<li><img src="img-lesson-07/thumb-2.png" alt="Mario thumb 2" /></li>
+			</ul>
+		</main>
+		<section class="join">
+			<h2>Join Today!</h2>
+			<p>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos quae, beatae ipsum
+				dolore numquam, fuga repudiandae quisquam aspernatur necessitatibus autem rem quia
+				veritatis ad impedit earum nobis error labore reiciendis. Lorem ipsum dolor sit
+				amet consectetur adipisicing elit. Quis, omnis optio! Fugit officia, incidunt
+				quaerat assumenda blanditiis impedit consectetur ut voluptatibus expedita minus
+				eius aliquid voluptate doloremque aut ullam accusamus!
+			</p>
+			<form>
+				<input type="email" name="email" placeholder="enteremail@gmail.com" required />
+			</form>
+		</section>
+		<footer>
+			<p class="copyright">Copyright 2022 Marioclub</p>
+		</footer>
 		<script type="module" src="/main.js"></script>
 	</body>
 </html>
