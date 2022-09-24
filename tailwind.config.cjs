@@ -5,7 +5,15 @@ module.exports = {
 		fontFamily: {
 			ubuntu: 'Ubuntu, sans-serif',
 		},
-		extend: {},
+		extend: {
+			colors: {
+				redOrange: '#F63232',
+				orangeYellow: '#FEB614',
+				lightGray: '#F4F4F4',
+				darkGray: '#4B4B4B',
+				neon: '#71d300',
+			},
+		},
 	},
 	plugins: [
 		require('@tailwindcss/aspect-ratio'),
